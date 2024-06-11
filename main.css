@@ -1,0 +1,17 @@
+body {
+  margin: 19.2px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  line-height: 1;
+  font-family: monospace;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 16px 20px;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Виберіть відповідь із запропонованого списку:</h1>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">x<sub>1</sub></th>
+        <th scope="col">x<sub>2</sub></th>
+        <th scope="col">y</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <select id="select" size="6">
+    <option>Елемент І (кон'юкція)</option>
+    <option>Елемент АБО (диз'юнкція)</option>
+    <option>Елемент ВИКЛЮЧАЮЧЕ АБО (нерівнозначність)</option>
+    <option>Елемент АБО-НЕ (стрілка Пірса)</option>
+    <option>Елемент І-НЕ (штрих Шеффера)</option>
+    <option>Елемент ВИКЛЮЧАЮЧЕ АБО-НЕ (рівнозначність)</option>
+  </select>
+  <script src="main.js"></script>
+</body>
+</html>
